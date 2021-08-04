@@ -8,7 +8,7 @@ function playRound(playerSelection, computerSelection) {
   } else if (playerSelection == "scissors" && computerSelection == "rock") {
     return "You lose! Rock beats scissors"
   } else if (playerSelection == "scissors" && computerSelection == "paper") {
-    return "You win! Scissors beats paper"
+    return "You win! Scissorbeatss  paper"
   } else if (playerSelection == "paper" && computerSelection == "scissors") {
     return "You lose! Scissors beats paper"
   } else if (playerSelection == "paper" && computerSelection == "rock") {
@@ -21,7 +21,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
-
+  
 }
 
 const plays = ["Rock", "Paper", "Scissors"];
